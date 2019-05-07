@@ -1,0 +1,1 @@
+"use strict";console.log("footer.js loading"),requirejs(["config"],function(){requirejs(["jquery"],function(o){var t=function(){this.htmlLoad()};t.prototype={htmlLoad:function(){o("footer").load("../html/footer.html"),console.log(o("footer"))}},new t})});

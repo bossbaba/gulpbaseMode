@@ -1,0 +1,1 @@
+"use strict";console.log("header.js loading"),requirejs(["config"],function(){requirejs(["jquery"],function(e){var o=function(){this.htmlLoad()};o.prototype={htmlLoad:function(){e("header").load("../html/header.html"),console.log(e("header"))}},new o})});

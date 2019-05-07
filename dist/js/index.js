@@ -1,0 +1,1 @@
+"use strict";console.log("index.js loading"),requirejs(["config"],function(){requirejs(["jquery","header","footer"],function(e){console.log(e),console.log(e("header"),">>>>>index")})});
